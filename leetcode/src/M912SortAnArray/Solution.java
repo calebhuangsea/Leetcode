@@ -10,8 +10,6 @@ public class Solution {
      * Merge sort (36ms 54.16%, 53.6MB 26.19%)
      * Time complexity: O(nlog(n)), split into two sub-array each time and merge
      * Space complexity: O(1), we use no extra array, only keep track index
-     * @param nums array that we need to sort
-     * @return sorted array
      */
 //    public int[] sortArray(int[] nums) {
 //        divide(nums, 0, nums.length - 1);
@@ -53,10 +51,8 @@ public class Solution {
 //    }
     /**
      * Quick sort (2060ms 5%, 56.4MB 5.96%)
-     * Time complexity: O(nlog(n)), split into two sub-array each time and merge
+     * Time complexity: O(nlog(n)), pick a pivot and move element to the left and right
      * Space complexity: O(1), we use no extra array, only keep track index
-     * @param nums array that we need to sort
-     * @return sorted array
      */
     public int[] sortArray(int[] nums) {
         quickSort(nums, 0, nums.length - 1);
