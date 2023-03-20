@@ -3,6 +3,7 @@ package M1472DesignBrowserHistory;
 import java.util.*;
 
 class BrowserHistory {
+
     /**
      * Solution 1: Use two stacks for forward and backward
      * Time Complexity: Visit(O(1)), Back(O(N)), Forward(O(N)) 106ms 24.3%
