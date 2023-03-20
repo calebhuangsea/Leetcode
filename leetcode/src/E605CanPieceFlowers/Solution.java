@@ -1,6 +1,7 @@
 package E605CanPieceFlowers;
 
 class Solution {
+
     /**
      * Greedy Algorithm, pick the closest available slot
      * Time Complexity: O(N) 1ms 100%

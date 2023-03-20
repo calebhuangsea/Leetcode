@@ -10,6 +10,7 @@ class Solution {
         ListNode(int val, ListNode next) { this.val = val; this.next = next; }
     }
 
+
     /**
      * Iteratively check node
      * Time Complexity: O(N + M) 0ms 100%
