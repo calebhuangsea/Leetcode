@@ -1,6 +1,7 @@
 package M71SearchInRotatedSortedArrayII;
 
 public class Solution {
+
     /**
      * Condition binary search
      * We search for target at lo, mid, hi because it is not distinct number

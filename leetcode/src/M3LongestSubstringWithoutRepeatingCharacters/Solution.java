@@ -1,6 +1,7 @@
 package M3LongestSubstringWithoutRepeatingCharacters;
 
 public class Solution {
+
     /**
      * Two pointers sliding windows, we will update the lo index
      * whenever we find a duplicate character in current window
