@@ -4,6 +4,7 @@ package M33SearchInRotatedSortedArray;
  * Search a value in a rotated array
  */
 public class Solution {
+
     /**
      * Binary Search with extra lo and hi check
      * Time Complexity: O(Nlog(N)) 0ms 100%

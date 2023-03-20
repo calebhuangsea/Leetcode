@@ -6,6 +6,7 @@ package M912SortAnArray;
  * Approach two: quick sort
  */
 public class Solution {
+
     /**
      * Merge sort (36ms 54.16%, 53.6MB 26.19%)
      * Time complexity: O(nlog(n)), split into two sub-array each time and merge

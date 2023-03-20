@@ -4,6 +4,7 @@ package E704BinarySearch;
  * Just Binary Search
  */
 public class Solution {
+
     /**
      * Binary Search
      * Time Complexity: O(Nlog(N)) 0ms 100%
