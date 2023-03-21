@@ -44,7 +44,7 @@ public class Solution {
     /**
      * Recursion, pretty easy
      * Time Complexity O(N + M) 0ms 100% we visited every node and edge
-     * Space Complexity O(1) we use no extra space 40.4MB 71.65%
+     * Space Complexity O(N) 40.4MB 71.65%
      */
     public List<Integer> inorderTraversal(TreeNode root) {
         if (root == null) {
