@@ -1,4 +1,4 @@
-package M33CombinationSum;
+package M39CombinationSum;
 
 import java.util.ArrayList;
 import java.util.List;
