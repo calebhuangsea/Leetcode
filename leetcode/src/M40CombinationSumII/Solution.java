@@ -1,16 +1,18 @@
-package M33CombinationSum;
+package M40CombinationSumII;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Solution {
     /**
-     * Recursion on every possible combination
-     * Time Complexity O(2^N) 2ms 85.39%
-     * Space Complexity O(1) 42.5MB 83.68%
+     * Sort and check previous index to avoid duplicating, same as combination sum
+     * Time Complexity O(2^N) 4ms 58.98%
+     * Space Complexity O(1) 42.7MB 64.28%
      */
     List<List<Integer>> res = new ArrayList<>();
-    public List<List<Integer>> combinationSum(int[] candidates, int target) {
+    public List<List<Integer>> combinationSum2(int[] candidates, int target) {
+        Arrays.sort(candidates);
         dfs(candidates, 0, target, new ArrayList<Integer>());
         return res;
     }
@@ -23,8 +25,11 @@ public class Solution {
             return;
         }
         for (int i = index; i < candidates.length; i++) {
+            if (i > index && candidates[i] == candidates[i - 1]) {
+                continue;
+            }
             curr.add(candidates[i]);
-            dfs(candidates, i, target - candidates[i], curr);
+            dfs(candidates, i + 1, target - candidates[i], curr);
             curr.remove(curr.size() - 1);
         }
     }
