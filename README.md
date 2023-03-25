@@ -24,6 +24,7 @@
 21. 173 [Binary Search Tree Iterator (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M173BinarySearchTreeIterator).
 22. 200 [Number of Islands (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M200NumberOfIslands).
 23. 297 [Serialize And Deserialize Binary Tree (Hard)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/H297SerializeAndDeserializeBinaryTree).
+24. 300 [Longest Increasing Subsequence (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M300LongestIncreasingSubsequence).
 24. 605 [Can Piece Flowers (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E605CanPieceFlowers).
 25. 704 [Binary Search (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E704BinarySearch).
 26. 706 [Design HashMap (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E706DesignHashMap).
