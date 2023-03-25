@@ -29,14 +29,14 @@
 28. 307 [Range Sum Query - Mutable (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M307RangeSumQueryMutable).
 29. 460 [LFU Cache (Hard)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/H460LFUCache).
 30. 605 [Can Piece Flowers (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E605CanPieceFlowers).
-30. 704 [Binary Search (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E704BinarySearch).
-31. 706 [Design HashMap (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E706DesignHashMap).
-32. 912 [Sort an array (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M912SortAnArray).
-33. 980 [Unique Paths III (Hard)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/H980UniquePathsIII).
-34. 1319 [Number of Operations to Make Network Connected (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M1319NumberOfOperationsToMakeNetworkConnected).
-35. 1466[Reorder Routes to Make All Paths Lead to the City Zero (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M1466ReorderRoutesToMakeAllPathsLeadToTheCityZero)
-36. 1472 [Design Browser History (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M1472DesignBrowserHistory).
-37. 2316 [Count Unreachable Pairs of Nodes in an Undirected Graph (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M1472DesignBrowserHistory).
-38. 2348 [Number of Zero Filled Subarray (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M2316CountUnreachablePairsOfNodesInAnUndirectedGraph).
-39. 2554 [Maximum Number of Integers to Choose From a Range I (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M2554MaximumNumberOfIntegersToChooseFromARangeI).
-40. 2595 [Number of Even And Odd Bits (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E2595NumberOfEvenAndOddBits).
+31. 704 [Binary Search (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E704BinarySearch).
+32. 706 [Design HashMap (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E706DesignHashMap).
+33. 912 [Sort an array (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M912SortAnArray).
+34. 980 [Unique Paths III (Hard)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/H980UniquePathsIII).
+35. 1319 [Number of Operations to Make Network Connected (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M1319NumberOfOperationsToMakeNetworkConnected).
+36. 1466[Reorder Routes to Make All Paths Lead to the City Zero (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M1466ReorderRoutesToMakeAllPathsLeadToTheCityZero)
+37. 1472 [Design Browser History (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M1472DesignBrowserHistory).
+38. 2316 [Count Unreachable Pairs of Nodes in an Undirected Graph (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M1472DesignBrowserHistory).
+39. 2348 [Number of Zero Filled Subarray (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M2316CountUnreachablePairsOfNodesInAnUndirectedGraph).
+40. 2554 [Maximum Number of Integers to Choose From a Range I (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M2554MaximumNumberOfIntegersToChooseFromARangeI).
+41. 2595 [Number of Even And Odd Bits (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E2595NumberOfEvenAndOddBits).
