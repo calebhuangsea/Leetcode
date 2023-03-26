@@ -39,5 +39,6 @@
 38. 1472 [Design Browser History (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M1472DesignBrowserHistory).
 39. 2316 [Count Unreachable Pairs of Nodes in an Undirected Graph (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M1472DesignBrowserHistory).
 40. 2348 [Number of Zero Filled Subarray (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M2316CountUnreachablePairsOfNodesInAnUndirectedGraph).
+41. 2360 [Longest Cycle in a Graph (Hard)] (https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/H2360LongestCycleInAGraph).
 41. 2554 [Maximum Number of Integers to Choose From a Range I (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M2554MaximumNumberOfIntegersToChooseFromARangeI).
 42. 2595 [Number of Even And Odd Bits (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E2595NumberOfEvenAndOddBits).

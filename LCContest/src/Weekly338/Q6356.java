@@ -1,45 +1,69 @@
 package Weekly338;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class Q6356 {
-    class Node {
-        int val;
-        int coin;
-        List<Node> next;
-        public Node(int v, int c) {
-            val = v;
-            coin = c;
-            next = new ArrayList<>();
-        }
-    }
-
-    private List<Node> ls = new ArrayList<>();
-
+    /**
+     * Topological sort
+     * @param coins
+     * @param edges
+     * @return
+     */
     public int collectTheCoins(int[] coins, int[][] edges) {
-        for (int i = 0; i < coins.length; i++) {
-            ls.add(new Node(i, coins[i]));
+        int n = coins.length;
+        List<Integer>[] nodes = new List[n];
+        // Initialize adjacency list
+        for (int i = 0; i < n; i++) {
+            nodes[i] = new ArrayList<>();
         }
+        // create a degree to for topological iteration
+        int[] deg = new int[n];
         for (int[] edge : edges) {
-            ls.get(edge[0]).next.add(ls.get(edge[1]));
-            ls.get(edge[1]).next.add(ls.get(edge[0]));
+            deg[edge[0]]++;
+            deg[edge[1]]++;
+            nodes[edge[0]].add(edge[1]);
+            nodes[edge[1]].add(edge[0]);
         }
-        int min = Integer.MAX_VALUE;
-        for (int i = 0; i < coins.length; i++) {
-            Set<Integer> visited = new HashSet<>();
-            visited.add(i);
-            min = Math.min(rec(i, visited), min);
+        // remove non-coin leaf node first
+        Queue<Integer> deque = new LinkedList<>();
+        for (int i = 0; i < n; i++) {
+            if (deg[i] == 1 && coins[i] == 0) {
+                deque.add(i);
+            }
         }
-        return min;
-    }
+        // total amount of edges in the graph
+        int totalEdges = n - 1;
+        while (!deque.isEmpty()) {
+            // remove the current edge
+            int d = deque.poll();
+            totalEdges -= 1;
+            // update neighbor degree
+            for (int neigh : nodes[d]) {
+                deg[neigh]--;
+                if (deg[neigh] == 1 && coins[neigh] == 0) {
+                    deque.add(neigh);
+                }
+            }
+        }
+        // we have remove all non-coin leaves, now remove two degree of coins
+        for (int i = 0; i < n; i++) {
+            if (deg[i] == 1) {
+                deque.add(i);
+            }
+        }
+        totalEdges -= deque.size();
+        for (int x : deque) {
+            for (int neigh : nodes[x]) {
+                deg[neigh]--;
+                if (deg[neigh] == 1) {
+                    totalEdges -= 1;
+                }
+            }
+        }
 
-    private int rec(int curr, Set<Integer> visited) {
-        if (visited.size() == ls.size()) {
-            return 0;
-        }
-        return -1;
+
+
+        // we might have negative case if there is no coin, check edge cases
+        return Math.max(totalEdges * 2, 0);
     }
 }
