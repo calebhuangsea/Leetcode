@@ -1,5 +1,3 @@
-package Q2TwoSumContiguousArray;
-
 /**
  * Given an array of integers a, your task is to find how many of its contiguous subarrays of length m contain a pair of integers with a sum equal to k.
  * <p>
@@ -14,7 +12,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-public class Solution {
+public class Q2TwoSumContiguousArray {
 
     int solution(int[] a, int m, int k) {
         // keep track of how many times each element has appeared

@@ -1,5 +1,3 @@
-package Q1PatternSourceMatching;
-
 import java.util.HashSet;
 import java.util.Set;
 
@@ -15,7 +13,7 @@ import java.util.Set;
  *
  * Note: In this task we define the vowels as 'a', 'e', 'i', 'o', 'u', and 'y'. All other letters are consonants.
  */
-public class Solution {
+public class Q1PatternSourceMatching {
     int solution(String pattern, String source) {
         Set<Character> vowel = new HashSet<>();
         char[] pattern1 = pattern.toCharArray();
