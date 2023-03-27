@@ -5,6 +5,7 @@
 4. 21 [Merge Two Sorted Lists (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E21MergeTwoSortedLists).
 5. 23 [Merge k Sorted List (Hard)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/H23MergeKSortedLists).
 6. 33 [Search In Rotated Sorted Array (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M33SearchInRotatedSortedArray).
+7. 34 [Find First and Last Position of Element in Sorted Array](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M34FindFirstAndLastPostionOfElementInSortedArray).
 7. 35 [Search Insert Position (Easy)] (https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E35SearchInsertPosition).
 8. 39 [Combination Sum (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M39CombinationSum).
 9. 40 [Combination Sum II (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M40CombinationSumII).
@@ -36,6 +37,7 @@
 33. 706 [Design HashMap (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E706DesignHashMap).
 34. 912 [Sort an array (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M912SortAnArray).
 35. 980 [Unique Paths III (Hard)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/H980UniquePathsIII).
+36. 1207 [Unique Number of Occurrences (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E1207UniqueNumberOfOccurrences).
 36. 1319 [Number of Operations to Make Network Connected (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M1319NumberOfOperationsToMakeNetworkConnected).
 37. 1466[Reorder Routes to Make All Paths Lead to the City Zero (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M1466ReorderRoutesToMakeAllPathsLeadToTheCityZero)
 38. 1472 [Design Browser History (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M1472DesignBrowserHistory).
