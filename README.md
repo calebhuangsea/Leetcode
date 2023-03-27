@@ -9,11 +9,13 @@
 7. 35 [Search Insert Position (Easy)] (https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E35SearchInsertPosition).
 8. 39 [Combination Sum (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M39CombinationSum).
 9. 40 [Combination Sum II (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M40CombinationSumII).
+10. 45 [Jump Game II (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M45JumpGameII).
 10. 46 [Permutations (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M46Permutations).
 11. 47 [Permutations II (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M47PermutationsII).
 12. 53 [Maximize Subarray (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M53MaximumSubarray).
 13. 62 [Unique Paths (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M62UniquePaths).
 14. 63 [Unique Paths II (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M63UniquePathsII).
+15. 64 [Minimum Path Sum (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M64MinimumPathSum).
 13. 71 [Search In Rotated Sorted Array II (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M71SearchInRotatedSortedArrayII).
 14. 75 [Sort Colors (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M75SortColors).
 15. 77 [Combinations (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M77Combinations).
