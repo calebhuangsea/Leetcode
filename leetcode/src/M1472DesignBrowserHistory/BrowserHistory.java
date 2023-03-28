@@ -5,7 +5,7 @@ import java.util.*;
 class BrowserHistory {
 
     /**
-     * Solution 1: Use two stacks for forward and backward
+     * E88MergeSodtedArray.Solution 1: Use two stacks for forward and backward
      * Time Complexity: Visit(O(1)), Back(O(N)), Forward(O(N)) 106ms 24.3%
      * Space Complexity: O(N), we use two stack, their size combing would only be N urls
      */
@@ -39,7 +39,7 @@ class BrowserHistory {
 //    }
 
     /**
-     * Solution 2: Use a single array list and an index to store urls
+     * E88MergeSodtedArray.Solution 2: Use a single array list and an index to store urls
      * Time Complexity: Visit(O(1)), Back(O(N)), Forward(O(N)) 58ms 60.3%
      * Space Complexity: O(N), only use a list, maximum store n urls
       */
