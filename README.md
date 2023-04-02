@@ -38,56 +38,58 @@
 37. 90 [Subsets II (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M90SubsetsII)
 38. 91 [Decode Ways (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M91DecodeWays).
 39. 94 [Binary Tree Inorder Traversal (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E94BinaryTreeInorderTraversal).
-40. 105 [Construct Binary Tree From Preorder and Inorder Traversl (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M105ConstructBinaryTreeFromPreorderAndInorderTraversal).
-41. 133 [Clone Graph (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M133CloneGraph).
-42. 141 [Linked List Cycle (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E141LinkedListCycle).
-43. 144 [Binary Tree Preorder Traversal (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E144BinaryTreePreorderTraversal).
-44. 145 [Binary Tree Poseorder Traversal (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E145BinaryTreePostorderTraversal).
-45. 146 [LRU Cache (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/MLRUCache).
-46. 155 [Min Stack (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M155MinStack)
-47. 160 [Intersection of Two Linked Lists](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E160IntersectionOfTwoLinkedLists).
-48. 162 [Find Peek Element (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M162FindPeekElement).
-49. 173 [Binary Search Tree Iterator (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M173BinarySearchTreeIterator).
-50. 200 [Number of Islands (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M200NumberOfIslands).
-51. 209 [Minimum Size Subarray Sum (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M209MinimumSizeSubarraySum).
-52. 215 [Kth Largest Element in an Array (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M215KthLargestElementInAnArray).
-53. 221 [Maximal Rectangle (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M221MaximalRectangle).
-54. 234 [Palindrome Linked List (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E234PalindromeLinkedList).
-55. 239 [Sliding Window Maximum (Hard)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/H239SlidingWindowMaximum).
-56. 252 [Meeting Rooms (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E252MeetingRooms).
-57. 253 [Meeting Rooms II (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M253MeetingRoomsII).
-58. 256 [Paint House (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M256PaintHouse).
-59. 283 [Move Zeroes (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E283MoveZeros).
-60. 297 [Serialize And Deserialize Binary Tree (Hard)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/H297SerializeAndDeserializeBinaryTree).
-61. 300 [Longest Increasing Subsequence (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M300LongestIncreasingSubsequence).
-62. 307 [Range Sum Query - Mutable (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M307RangeSumQueryMutable).
-63. 328 [Odd Even Linked List (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M328OddEvenLinkedList).
-64. 345 [Reverse Vowels of a String (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E345ReverseVowelsOfAString).
-65. 347 [Top K Frequent Elements (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M347TopKFrequentElements).
-66. 349 [Intersection of Two Arrays (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E349IntersectionofTwoArrays).
-67. 350 [Intersection of Two Arrays II (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E350IntersectionofTwoArraysII).
-68. 460 [LFU Cache (Hard)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/H460LFUCache).
-69. 605 [Can Piece Flowers (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E605CanPieceFlowers).
-70. 680 [Valid Palindrome II (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E680ValidPalindromeII).
-71. 702 [Search in a sorted array of unknown size](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M702SearchInASortedArrayOfUnknownSize).
-72. 704 [Binary Search (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E704BinarySearch).
-73. 706 [Design HashMap (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E706DesignHashMap).
-74. 713 [Subarray Product Less Than K](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M713SubarrayProductLessThanK).
-75. 845 [Longest Mountain in Array (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M845LongestMountainInArray).
-76. 875 [Koko Eating Bananas(Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M875KokoEatingBananas).
-77. 912 [Sort an array (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M912SortAnArray).
-78. 980 [Unique Paths III (Hard)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/H980UniquePathsIII).
-79. 983 [Minimum Cost For Tickets (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M983MinimumCostForTickets).
-80. 986 [Interval List Intersections (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M986IntervalListIntersections).
-81. 1207 [Unique Number of Occurrences (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E1207UniqueNumberOfOccurrences).
-82. 1283 [Find the Smallest Divisor Given a Threshold (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M1283FindTheSmallestDivisorGivenAThreshold).
-83. 1319 [Number of Operations to Make Network Connected (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M1319NumberOfOperationsToMakeNetworkConnected).
-84. 1402 [Reducing Dishes (Hard)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/H1402ReducingDishes).
-85. 1466[Reorder Routes to Make All Paths Lead to the City Zero (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M1466ReorderRoutesToMakeAllPathsLeadToTheCityZero)
-86. 1472 [Design Browser History (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M1472DesignBrowserHistory).
-87. 2300 [Successful Pairs of Spells and Potions (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M2300SuccessfulPairsOfSpellsAndPotions).
-88. 2316 [Count Unreachable Pairs of Nodes in an Undirected Graph (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M1472DesignBrowserHistory).
-89. 2348 [Number of Zero Filled Subarray (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M2316CountUnreachablePairsOfNodesInAnUndirectedGraph).
-90. 2360 [Longest Cycle in a Graph (Hard)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/H2360LongestCycleInAGraph).
-91. 2554 [Maximum Number of Integers to Choose From a Range I (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M2554MaximumNumberOfIntegersToChooseFromARangeI).
-92. 2595 [Number of Even And Odd Bits (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E2595NumberOfEvenAndOddBits).
+40. 105 [Construct Binary Tree From Preorder and Inorder Traversal (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M105ConstructBinaryTreeFromPreorderAndInorderTraversal).
+41. 122 [Best Time to Buy and Sell Stock II (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M122BestTimeToBuyAndSellStockII).
+42. 133 [Clone Graph (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M133CloneGraph).
+43. 141 [Linked List Cycle (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E141LinkedListCycle).
+44. 144 [Binary Tree Preorder Traversal (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E144BinaryTreePreorderTraversal).
+45. 145 [Binary Tree Poseorder Traversal (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E145BinaryTreePostorderTraversal).
+46. 146 [LRU Cache (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/MLRUCache).
+47. 155 [Min Stack (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M155MinStack)
+48. 160 [Intersection of Two Linked Lists](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E160IntersectionOfTwoLinkedLists).
+49. 162 [Find Peek Element (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M162FindPeekElement).
+50. 173 [Binary Search Tree Iterator (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M173BinarySearchTreeIterator).
+51. 200 [Number of Islands (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M200NumberOfIslands).
+52. 209 [Minimum Size Subarray Sum (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M209MinimumSizeSubarraySum).
+53. 215 [Kth Largest Element in an Array (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M215KthLargestElementInAnArray).
+54. 221 [Maximal Rectangle (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M221MaximalRectangle).
+55. 234 [Palindrome Linked List (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E234PalindromeLinkedList).
+56. 239 [Sliding Window Maximum (Hard)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/H239SlidingWindowMaximum).
+57. 252 [Meeting Rooms (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E252MeetingRooms).
+58. 253 [Meeting Rooms II (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M253MeetingRoomsII).
+59. 256 [Paint House (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M256PaintHouse).
+60. 279 [Perfect Squares (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M279PerfectSquares).
+61. 283 [Move Zeroes (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E283MoveZeros).
+62. 297 [Serialize And Deserialize Binary Tree (Hard)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/H297SerializeAndDeserializeBinaryTree).
+63. 300 [Longest Increasing Subsequence (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M300LongestIncreasingSubsequence).
+64. 307 [Range Sum Query - Mutable (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M307RangeSumQueryMutable).
+65. 328 [Odd Even Linked List (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M328OddEvenLinkedList).
+66. 345 [Reverse Vowels of a String (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E345ReverseVowelsOfAString).
+67. 347 [Top K Frequent Elements (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M347TopKFrequentElements).
+68. 349 [Intersection of Two Arrays (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E349IntersectionofTwoArrays).
+69. 350 [Intersection of Two Arrays II (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E350IntersectionofTwoArraysII).
+70. 460 [LFU Cache (Hard)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/H460LFUCache).
+71. 605 [Can Piece Flowers (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E605CanPieceFlowers).
+72. 680 [Valid Palindrome II (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E680ValidPalindromeII).
+73. 702 [Search in a sorted array of unknown size](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M702SearchInASortedArrayOfUnknownSize).
+74. 704 [Binary Search (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E704BinarySearch).
+75. 706 [Design HashMap (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E706DesignHashMap).
+76. 713 [Subarray Product Less Than K](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M713SubarrayProductLessThanK).
+77. 845 [Longest Mountain in Array (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M845LongestMountainInArray).
+78. 875 [Koko Eating Bananas(Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M875KokoEatingBananas).
+79. 912 [Sort an array (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M912SortAnArray).
+80. 980 [Unique Paths III (Hard)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/H980UniquePathsIII).
+81. 983 [Minimum Cost For Tickets (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M983MinimumCostForTickets).
+82. 986 [Interval List Intersections (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M986IntervalListIntersections).
+83. 1207 [Unique Number of Occurrences (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E1207UniqueNumberOfOccurrences).
+84. 1283 [Find the Smallest Divisor Given a Threshold (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M1283FindTheSmallestDivisorGivenAThreshold).
+85. 1319 [Number of Operations to Make Network Connected (Medium)](https://github.csom/calebhuangsea/Leetcode/tree/main/leetcode/src/M1319NumberOfOperationsToMakeNetworkConnected).
+86. 1402 [Reducing Dishes (Hard)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/H1402ReducingDishes).
+87. 1466[Reorder Routes to Make All Paths Lead to the City Zero (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M1466ReorderRoutesToMakeAllPathsLeadToTheCityZero)
+88. 1472 [Design Browser History (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M1472DesignBrowserHistory).
+89. 2300 [Successful Pairs of Spells and Potions (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M2300SuccessfulPairsOfSpellsAndPotions).
+90. 2316 [Count Unreachable Pairs of Nodes in an Undirected Graph (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M1472DesignBrowserHistory).
+91. 2348 [Number of Zero Filled Subarray (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M2316CountUnreachablePairsOfNodesInAnUndirectedGraph).
+92. 2360 [Longest Cycle in a Graph (Hard)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/H2360LongestCycleInAGraph).
+93. 2554 [Maximum Number of Integers to Choose From a Range I (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M2554MaximumNumberOfIntegersToChooseFromARangeI).
+94. 2595 [Number of Even And Odd Bits (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E2595NumberOfEvenAndOddBits).
