@@ -2,7 +2,7 @@ package Weekly338;
 
 import java.util.*;
 
-public class Q6356 {
+public class Q4 {
     /**
      * Topological sort
      * @param coins

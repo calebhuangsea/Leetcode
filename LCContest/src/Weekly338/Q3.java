@@ -2,7 +2,7 @@ package Weekly338;
 
 import java.util.*;
 
-public class Q6357 {
+public class Q3 {
     // prefix sum and binary search to find the insert point, calculate left and right
     public List<Long> minOperations(int[] nums, int[] queries) {
         Arrays.sort(nums);

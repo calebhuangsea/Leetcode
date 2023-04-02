@@ -1,6 +1,6 @@
 package Weekly338;
 
-public class Q6355 {
+public class Q2 {
     public static void main(String[] args) {
         System.out.println(primeSubOperation(new int[] {5, 16, 14, 9}));
     }

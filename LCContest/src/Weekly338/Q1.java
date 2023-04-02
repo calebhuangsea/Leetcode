@@ -1,6 +1,6 @@
 package Weekly338;
 
-public class Q6354 {
+public class Q1 {
     public static void main(String[] args) {
         System.out.println(kItemsWithMaximumSum(6, 6, 6, 13));
         System.out.println(kItemsWithMaximumSum(3, 2, 0, 4));
