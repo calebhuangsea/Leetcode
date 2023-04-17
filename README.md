@@ -70,7 +70,7 @@
 69. 121 [Best Time to Buy and Sel Stock (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E121BestTimeToBuyAndSellStock).
 70. 122 [Best Time to Buy and Sell Stock II (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M122BestTimeToBuyAndSellStockII).
 71. 124 [Binary Tree Maximum Path Sum (Hard)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/H124BinaryTreeMaximumPathSum).
-72. 127 [Word Ladder (Hard)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/H127WordLadder)
+72. 127 [Word Ladder (Hard)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/H127WordLadder).
 73. 129 [Sum Root to Leaf Numbers](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M129SumRoottoLeafNumbers).
 74. 133 [Clone Graph (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M133CloneGraph).
 75. 141 [Linked List Cycle (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E141LinkedListCycle).
@@ -129,94 +129,98 @@
 128. 350 [Intersection of Two Arrays II (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E350IntersectionofTwoArraysII).
 129. 380 [Insert Delete GetRandom O(1) (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M380InsertDeleteGetRandomO1).
 130. 392 [Is Subsequence (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E392IsSubsequence).
-131. 409 [Longest Palindrome (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E409LongestPalindrome).
-132. 424 [Longest Repeating Character Replacement (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M424LongestRepeatingCharacterReplacement).
-133. 438 [Find All Anagrams in a String (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M438FindAllAnagramsinaString).
-134. 449 [Serialize and Deserialize BST (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M449SerializeandDeserializeBST).
-135. 460 [LFU Cache (Hard)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/H460LFUCache).
-136. 490 [The Maze (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M490TheMaze).
-137. 501 [Find Mode in Binary Search Tree (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E501FindModeinBinarySearchTree).
-138. 505 [The Maze II (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M505TheMazeII).
-139. 509 [Fibonacci Number (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E509FibonacciNumber).
-140. 513 [Find Bottom Left Tree Value (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M513FindBottomLeftTreeValue).
-141. 516 [Longest Palindromic Subsequence (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M516LongestPalindromicSubsequence).
-142. 528 [Random Pick with Weight](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M528RandomPickWithWeight).
-143. 530 [Minimum Absolute Difference in BST (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E530MinimumAbsoluteDifferenceinBST).
-144. 542 [01Matrix (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M542_01Matrix).
-145. 560 [Subarray Sum Equals K (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M560SubarraySumEqualsK).
-146. 589 [N-ary Tree Preorder Traversal (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E589NaryTreePreorderTraversal).
-147. 605 [Can Piece Flowers (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E605CanPieceFlowers).
-148. 611 [Valid Triangle Number](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M611ValidTriangleNumber).
-149. 680 [Valid Palindrome II (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E680ValidPalindromeII).
-150. 700 [Search in a Binary Search Tree (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E700SearchinaBinarySearchTree).
-151. 702 [Search in a sorted array of unknown size](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M702SearchInASortedArrayOfUnknownSize).
-152. 704 [Binary Search (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E704BinarySearch).
-153. 706 [Design HashMap (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E706DesignHashMap).
-154. 713 [Subarray Product Less Than K](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M713SubarrayProductLessThanK).
-155. 724 [Find Pivot Index (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E724FindPivotIndex).
-156. 733 [Flood Fill (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E733FloodFill).
-157. 746 [Min Cost Climbing Stairs (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M746MinCostClimbingStairs).
-158. 760 [Find Anagram Mappings (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E760FindAnagramMappings).
-159. 763 [Partition Labels (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M763PartitionLabels).
-160. 841 [Keys and Rooms (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M841KeysAndRooms).
-161. 845 [Longest Mountain in Array (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M845LongestMountainInArray).
-162. 875 [Koko Eating Bananas (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M875KokoEatingBananas).
-163. 876 [Middle of the Linked List (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E876MiddleoftheLinkedList).
-164. 881 [Boats to Save People (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M881BoatsToSavePeople).
-165. 912 [Sort an array (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M912SortAnArray).
-166. 946 [Validate Stack Sequences (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M946ValidateStackSequences).
-167. 980 [Unique Paths III (Hard)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/H980UniquePathsIII).
-168. 983 [Minimum Cost For Tickets (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M983MinimumCostForTickets).
-169. 986 [Interval List Intersections (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M986IntervalListIntersections).
-170. 1004 [Max Consecutive Ones III (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M1004MaxConsecutiveOnesIII).
-171. 1020 [Number of Enclaves (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M1020NumberOfEnclaves).
-172. 1207 [Unique Number of Occurrences (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E1207UniqueNumberOfOccurrences).
-173. 1234 [Replace the Substring for Balanced String (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M1234ReplaceTheSubstringForBalancedString).
-174. 1254 [Number of Closed Islands (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M1254NumberOfClosedIsland).
-175. 1283 [Find the Smallest Divisor Given a Threshold (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M1283FindTheSmallestDivisorGivenAThreshold).
-176. 1319 [Number of Operations to Make Network Connected (Medium)](https://github.csom/calebhuangsea/Leetcode/tree/main/leetcode/src/M1319NumberOfOperationsToMakeNetworkConnected).
-177. 1402 [Reducing Dishes (Hard)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/H1402ReducingDishes).
-178. 1466 [Reorder Routes to Make All Paths Lead to the City Zero (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M1466ReorderRoutesToMakeAllPathsLeadToTheCityZero).
-179. 1472 [Design Browser History (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M1472DesignBrowserHistory).
-180. 1480 [Running Sum of 1d Array (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E1480RunningSumOf1dArray).
-181. 1639 [Number of Ways to Form a Target String Given a Dictionary (Hard)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/H1639NumberofWaystoFormaTargetStringGivenaDictionary).
-182. 1658 [Minimum Operations to Reduce X to Zero (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M1658MinimumOperationsToReduceXToZero).
-183. 1857 [Largest Color Value in a Directed Graph (Hard)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/H1857LargestColorValueinaDirectedGraph).
-184. 2218 [Maximum Value of K Coins From Piles (Hard)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/H2218MaximumValueofKCoinsFromPiles).
-185. 2300 [Successful Pairs of Spells and Potions (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M2300SuccessfulPairsOfSpellsAndPotions).
-186. 2316 [Count Unreachable Pairs of Nodes in an Undirected Graph (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M1472DesignBrowserHistory).
-187. 2348 [Number of Zero Filled Subarray (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M2316CountUnreachablePairsOfNodesInAnUndirectedGraph).
-188. 2360 [Longest Cycle in a Graph (Hard)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/H2360LongestCycleInAGraph).
-189. 2390 [Removing Stars From a String (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M2390RemovingStarsFromAString).
-190. 2405 [Optimal Partition of String (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M2405OptimalPartitionOfString).
-191. 2439 [Minimize Maximum of Array (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M2439MinimizeMaximumOfArray).
-192. 2553 [Separate the Digits in an Array (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E2553SeparatetheDigitsinanArray).
-193. 2554 [Maximum Number of Integers to Choose From a Range I (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M2554MaximumNumberOfIntegersToChooseFromARangeI).
-194. 2574 [Left and Right Sum Differences (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E2574LeftandRightSumDifference).
-195. 2595 [Number of Even And Odd Bits (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E2595NumberOfEvenAndOddBits).
-196. 2596 [Check Knight Tour Configuration (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M2596CheckKnightTourConfiguration).
-197. 2597 [The Number of Beautiful Subsets (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M2597TheNumberOfBeautifulSubsets).
-198. 2598 [Smallest Missing Non-negative Integer After Operations (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M2598SmallestMissingNon_negativeIntegerAfterOperations).
-199. 2600 [K Items With the Maximum Sum (Easy)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Weekly338/Q1.java).
-200. 2601 [Prime Subtraction Operation (Medium)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Weekly338/Q2.java).
-201. 2602 [Minimum Operations to Make All Array Elements Equal (Medium)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Weekly338/Q3.java).
-202. 2603 [Collect Coins in a Tree (Hard)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Weekly338/Q4.java).
-203. 2605 [Form Smallest Number From Two Digit Arrays (Easy)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Biweekly101/Q1.java).
-204. 2606 [Find the Substring With Maximum Cost (Medium)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Biweekly101/Q2.java).
-205. 2607 [Make K-Subarray Sums Equal (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M2607MakeK_SubarraySumsEqual).
-206. 2608 [Shortest Cycle in a Graph (Hard)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Biweekly101/Q4.java).
-207. 2609 [Find the Longest Balanced Substring of a Binary String (Easy)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Weekly339/Q1.java).
-208. 2610 [Convert an Array Into a 2D Array With Conditions (Medium)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Weekly339/Q2.java).
-209. 2611 [Mice and Cheese (Medium)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Weekly339/Q3.java).
-210. 2612 [Minimum Reverse Operations](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/H2612MinimumReverseOperations).
-211. 2614 [Prime In Diagonal (Easy)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Weekly340/Q1.java).
-212. 2615 [Sum of Distances (Medium)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Weekly340/Q2.java).
-213. 2616 [Minimize the Maximum Difference of Pairs (Medium)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Weekly340/Q3.java).
-214. 2617 [Minimum Number of Visited Cells in a Grid (Hard)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Weekly340/Q4.java).
-215. 2639 [Find the Width of Columns of a Grid (Easy)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Biweekly102/Q1.java).
-216. 2640 [Find the Score of All Prefixes of an Array (Medium)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Biweekly102/Q2.java).
-217. 2641 [Cousins in Binary Tree II (Medium)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Biweekly102/Q3.java).
-218. 2642 [Design Graph With Shortest Path Calculator (Hard)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Biweekly102/Graph.java).
-219. 2643 [Minimum Additions to Make Valid String (Medium)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Weekly341/Q1.java).
-220. 2644 [Find the Maximum Divisibility Score (Easy)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Weekly341/Q2.java).
-221. 2645 [Row With Maximum Ones (Easy)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Weekly341/Q3.java).
+131. 394 [Decode String (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M394DecodeString).
+132. 409 [Longest Palindrome (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E409LongestPalindrome).
+133. 424 [Longest Repeating Character Replacement (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M424LongestRepeatingCharacterReplacement).
+134. 438 [Find All Anagrams in a String (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M438FindAllAnagramsinaString).
+135. 449 [Serialize and Deserialize BST (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M449SerializeandDeserializeBST).
+136. 460 [LFU Cache (Hard)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/H460LFUCache).
+137. 490 [The Maze (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M490TheMaze).
+138. 501 [Find Mode in Binary Search Tree (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E501FindModeinBinarySearchTree).
+139. 505 [The Maze II (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M505TheMazeII).
+140. 509 [Fibonacci Number (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E509FibonacciNumber).
+141. 513 [Find Bottom Left Tree Value (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M513FindBottomLeftTreeValue).
+142. 516 [Longest Palindromic Subsequence (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M516LongestPalindromicSubsequence).
+143. 528 [Random Pick with Weight](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M528RandomPickWithWeight).
+144. 530 [Minimum Absolute Difference in BST (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E530MinimumAbsoluteDifferenceinBST).
+145. 542 [01Matrix (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M542_01Matrix).
+146. 560 [Subarray Sum Equals K (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M560SubarraySumEqualsK).
+147. 589 [N-ary Tree Preorder Traversal (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E589NaryTreePreorderTraversal).
+148. 605 [Can Piece Flowers (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E605CanPieceFlowers).
+149. 611 [Valid Triangle Number](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M611ValidTriangleNumber).
+150. 680 [Valid Palindrome II (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E680ValidPalindromeII).
+151. 700 [Search in a Binary Search Tree (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E700SearchinaBinarySearchTree).
+152. 702 [Search in a sorted array of unknown size](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M702SearchInASortedArrayOfUnknownSize).
+153. 704 [Binary Search (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E704BinarySearch).
+154. 706 [Design HashMap (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E706DesignHashMap).
+155. 713 [Subarray Product Less Than K](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M713SubarrayProductLessThanK).
+156. 724 [Find Pivot Index (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E724FindPivotIndex).
+157. 733 [Flood Fill (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E733FloodFill).
+158. 746 [Min Cost Climbing Stairs (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M746MinCostClimbingStairs).
+159. 760 [Find Anagram Mappings (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E760FindAnagramMappings).
+160. 763 [Partition Labels (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M763PartitionLabels).
+161. 841 [Keys and Rooms (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M841KeysAndRooms).
+162. 844 [Backspace String Compare (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E844BackspaceStringCompare).
+163. 845 [Longest Mountain in Array (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M845LongestMountainInArray).
+164. 875 [Koko Eating Bananas (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M875KokoEatingBananas).
+165. 876 [Middle of the Linked List (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E876MiddleoftheLinkedList).
+166. 881 [Boats to Save People (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M881BoatsToSavePeople).
+167. 912 [Sort an array (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M912SortAnArray).
+168. 946 [Validate Stack Sequences (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M946ValidateStackSequences).
+169. 980 [Unique Paths III (Hard)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/H980UniquePathsIII).
+170. 983 [Minimum Cost For Tickets (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M983MinimumCostForTickets).
+171. 986 [Interval List Intersections (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M986IntervalListIntersections).
+172. 1004 [Max Consecutive Ones III (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M1004MaxConsecutiveOnesIII).
+173. 1020 [Number of Enclaves (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M1020NumberOfEnclaves).
+174. 1207 [Unique Number of Occurrences (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E1207UniqueNumberOfOccurrences).
+175. 1234 [Replace the Substring for Balanced String (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M1234ReplaceTheSubstringForBalancedString).
+176. 1254 [Number of Closed Islands (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M1254NumberOfClosedIsland).
+177. 1283 [Find the Smallest Divisor Given a Threshold (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M1283FindTheSmallestDivisorGivenAThreshold).
+178. 1319 [Number of Operations to Make Network Connected (Medium)](https://github.csom/calebhuangsea/Leetcode/tree/main/leetcode/src/M1319NumberOfOperationsToMakeNetworkConnected).
+179. 1402 [Reducing Dishes (Hard)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/H1402ReducingDishes).
+180. 1431 [Kids With the Greatest Number of Candies (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E1431KidsWiththeGreatestNumberofCandies).
+181. 1466 [Reorder Routes to Make All Paths Lead to the City Zero (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M1466ReorderRoutesToMakeAllPathsLeadToTheCityZero).
+182. 1472 [Design Browser History (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M1472DesignBrowserHistory).
+183. 1480 [Running Sum of 1d Array (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E1480RunningSumOf1dArray).
+184. 1548 [The Most Similar Path in a Graph (Hard)]().
+185. 1639 [Number of Ways to Form a Target String Given a Dictionary (Hard)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/H1639NumberofWaystoFormaTargetStringGivenaDictionary).
+185. 1658 [Minimum Operations to Reduce X to Zero (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M1658MinimumOperationsToReduceXToZero).
+186. 1857 [Largest Color Value in a Directed Graph (Hard)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/H1857LargestColorValueinaDirectedGraph).
+187. 2218 [Maximum Value of K Coins From Piles (Hard)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/H2218MaximumValueofKCoinsFromPiles).
+188. 2300 [Successful Pairs of Spells and Potions (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M2300SuccessfulPairsOfSpellsAndPotions).
+189. 2316 [Count Unreachable Pairs of Nodes in an Undirected Graph (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M1472DesignBrowserHistory).
+190. 2348 [Number of Zero Filled Subarray (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M2316CountUnreachablePairsOfNodesInAnUndirectedGraph).
+191. 2360 [Longest Cycle in a Graph (Hard)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/H2360LongestCycleInAGraph).
+192. 2390 [Removing Stars From a String (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M2390RemovingStarsFromAString).
+193. 2405 [Optimal Partition of String (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M2405OptimalPartitionOfString).
+194. 2439 [Minimize Maximum of Array (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M2439MinimizeMaximumOfArray).
+195. 2553 [Separate the Digits in an Array (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E2553SeparatetheDigitsinanArray).
+196. 2554 [Maximum Number of Integers to Choose From a Range I (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M2554MaximumNumberOfIntegersToChooseFromARangeI).
+197. 2574 [Left and Right Sum Differences (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E2574LeftandRightSumDifference).
+198. 2595 [Number of Even And Odd Bits (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E2595NumberOfEvenAndOddBits).
+199. 2596 [Check Knight Tour Configuration (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M2596CheckKnightTourConfiguration).
+200. 2597 [The Number of Beautiful Subsets (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M2597TheNumberOfBeautifulSubsets).
+201. 2598 [Smallest Missing Non-negative Integer After Operations (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M2598SmallestMissingNon_negativeIntegerAfterOperations).
+202. 2600 [K Items With the Maximum Sum (Easy)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Weekly338/Q1.java).
+203. 2601 [Prime Subtraction Operation (Medium)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Weekly338/Q2.java).
+204. 2602 [Minimum Operations to Make All Array Elements Equal (Medium)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Weekly338/Q3.java).
+205. 2603 [Collect Coins in a Tree (Hard)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Weekly338/Q4.java).
+206. 2605 [Form Smallest Number From Two Digit Arrays (Easy)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Biweekly101/Q1.java).
+207. 2606 [Find the Substring With Maximum Cost (Medium)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Biweekly101/Q2.java).
+208. 2607 [Make K-Subarray Sums Equal (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M2607MakeK_SubarraySumsEqual).
+209. 2608 [Shortest Cycle in a Graph (Hard)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Biweekly101/Q4.java).
+210. 2609 [Find the Longest Balanced Substring of a Binary String (Easy)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Weekly339/Q1.java).
+211. 2610 [Convert an Array Into a 2D Array With Conditions (Medium)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Weekly339/Q2.java).
+212. 2611 [Mice and Cheese (Medium)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Weekly339/Q3.java).
+213. 2612 [Minimum Reverse Operations](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/H2612MinimumReverseOperations).
+214. 2614 [Prime In Diagonal (Easy)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Weekly340/Q1.java).
+215. 2615 [Sum of Distances (Medium)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Weekly340/Q2.java).
+216. 2616 [Minimize the Maximum Difference of Pairs (Medium)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Weekly340/Q3.java).
+217. 2617 [Minimum Number of Visited Cells in a Grid (Hard)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Weekly340/Q4.java).
+218. 2639 [Find the Width of Columns of a Grid (Easy)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Biweekly102/Q1.java).
+219. 2640 [Find the Score of All Prefixes of an Array (Medium)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Biweekly102/Q2.java).
+220. 2641 [Cousins in Binary Tree II (Medium)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Biweekly102/Q3.java).
+221. 2642 [Design Graph With Shortest Path Calculator (Hard)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Biweekly102/Graph.java).
+222. 2643 [Minimum Additions to Make Valid String (Medium)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Weekly341/Q1.java).
+223. 2644 [Find the Maximum Divisibility Score (Easy)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Weekly341/Q2.java).
+224. 2645 [Row With Maximum Ones (Easy)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Weekly341/Q3.java).
