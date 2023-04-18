@@ -139,7 +139,8 @@
 138. 460 [LFU Cache (Hard)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/H460LFUCache).
 139. 490 [The Maze (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M490TheMaze).
 140. 491 [Non-decreasing Subsequences (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M491Non_decreasingSubsequences).
-141. 501 [Find Mode in Binary Search Tree (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E501FindModeinBinarySearchTree).
+141. 494 [Target Sum (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M494TargetSum).
+142. 501 [Find Mode in Binary Search Tree (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E501FindModeinBinarySearchTree).
 142. 505 [The Maze II (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M505TheMazeII).
 143. 509 [Fibonacci Number (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E509FibonacciNumber).
 144. 513 [Find Bottom Left Tree Value (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M513FindBottomLeftTreeValue).
