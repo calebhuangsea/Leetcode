@@ -1,13 +1,10 @@
-package SnowFlake;
+package H1851MinimumIntervaltoIncludeEachQuery;
 
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.TreeMap;
 
-/**
- * https://leetcode.com/problems/merge-intervals/
- */
-public class BestIntervalMinimumIntervaltoIncludeEachQuery {
+public class Solution {
     public int[] minInterval(int[][] intervals, int[] queries) {
         TreeMap<Integer, Integer> pq = new TreeMap<>();
         HashMap<Integer, Integer> map = new HashMap<>();
