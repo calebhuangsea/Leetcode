@@ -5,4 +5,5 @@ package SnowFlake;
  * 用二分做的最后都过了
  */
 public class JobExecution {
+    // 每次sort然后找到比x大的最小的数
 }

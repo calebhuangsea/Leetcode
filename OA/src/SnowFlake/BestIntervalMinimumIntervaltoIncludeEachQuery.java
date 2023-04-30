@@ -8,6 +8,9 @@ import java.util.TreeMap;
  * https://leetcode.com/problems/merge-intervals/
  */
 public class BestIntervalMinimumIntervaltoIncludeEachQuery {
+    public static void main(String[] args) {
+
+    }
     public int[] minInterval(int[][] intervals, int[] queries) {
         TreeMap<Integer, Integer> pq = new TreeMap<>();
         HashMap<Integer, Integer> map = new HashMap<>();

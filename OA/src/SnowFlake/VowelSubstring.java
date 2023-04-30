@@ -1,7 +1,7 @@
 package SnowFlake;
 
 /**
- * https://leetcode.com/problems/co ... trings-of-a-string/
+ * https://leetcode.com/problems/count-vowel-substrings-of-a-string/description/
  */
 public class VowelSubstring {
 }

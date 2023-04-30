@@ -18,4 +18,7 @@ package SnowFlake;
  * (第一题划窗但不移动左边，右边take in新的元素，只要跟target一样了之后就break loop 返回当前的length加入答案list即可)
  */
 public class SequentialString {
+    public static void main(String[] args) {
+
+    }
 }
