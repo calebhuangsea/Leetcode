@@ -287,5 +287,6 @@
 286. 2656 [Maximum Sum With Exactly K Elements (Easy)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Biweekly103/Q1.java).
 287. 2657 [Find the Prefix Common Array of Two Arrays (Medium)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Biweekly103/Q2.java).
 288. 2658 [Maximum Number of Fish in a Grid (Medium)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Biweekly103/Q3.java).
-289. 2660 [Determine the Winner of a Bowling Game (Easy)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Weekly343/Q1.java).
-290. 2661 [First Completely Painted Row or Column (Medium)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Weekly343/Q2.java).
+289. 2659 [Make Array Empty (Hard)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Biweekly103/Q3.java).
+290. 2660 [Determine the Winner of a Bowling Game (Easy)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Weekly343/Q1.java).
+291. 2661 [First Completely Painted Row or Column (Medium)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Weekly343/Q2.java).
