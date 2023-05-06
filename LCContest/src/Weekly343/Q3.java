@@ -10,51 +10,45 @@ public class Q3 {
         System.out.println(minimumCost(s, t, a2));
     }
 
-    public static int minimumCost(int[] start, int[] target, int[][] specialRoads) {
-        int m = target[0];
-        int n = target[1];
-        int[][] dp = new int[m + 1][n + 1];
-        Arrays.sort(specialRoads, new Comparator<int[]>() {
-            @Override
-            public int compare(int[] road1, int[] road2) {
-                int result = Integer.compare(road1[2], road2[2]); // sort by x2i first
-                if (result == 0) {
-                    result = Integer.compare(road1[3], road2[3]); // if x2i is same, sort by y2i
-                }
-                return result;
+    /**
+     * Time: O(n^2 log(n))
+     * Space: O(N)
+     */
+    public static int minimumCost(int[] start, int[] target, int[][] roads) {
+        int n = roads.length;
+        // cost[i] is the cost from start to the target of road[i]
+        int[] costs  = new int[n];
+        PriorityQueue<int[]> pq = new PriorityQueue<>(Comparator.comparingInt(a -> a[0]));
+        for (int i = 0; i < n; i++) {
+            costs[i] = cost(start[0], start[1], roads[i][0], roads[i][1]) + roads[i][4];
+            if (costs[i] >= cost(start[0], start[1], roads[i][2], roads[i][3])) {
+                continue;
             }
-        });
-        for (int[] arr : dp) {
-            Arrays.fill(arr, 10000000);
+            pq.offer(new int[] {costs[i], i});
         }
-        dp[start[0]][start[1]] = 0;
-        int index = 0;
-        for (int i = 1 + start[0]; i < m + 1; i++) {
-            dp[i][start[1]] = dp[i - 1][start[1]] + 1;
 
-        }
-        for (int i = 1 + start[1]; i < n + 1; i++) {
-            dp[start[0]][i] = dp[start[0]][i - 1] + 1;
-        }
-        for (int i = start[0] + 1; i < m + 1; i++) {
-            for (int j = start[1] + 1; j < n + 1; j++) {
-                dp[i][j] = dp[i][j - 1] + 1;
+        int res = cost(start[0], start[1], target[0], target[1]);
+        while (!pq.isEmpty()) {
+            int[] curr = pq.poll();
+            int currCost = curr[0];
+            int currNode = curr[1];
+            if (currCost != costs[currNode]) {
+                // because this is not the shortest path already
+                continue;
             }
-        }
-        for (int[] road : specialRoads) {
-            int cost = road[4] + dp[road[0]][road[1]];
-            if (cost < dp[road[2]][road[3]]) {
-                dp[road[2]][road[3]] = cost;
-                for (int i = road[2]; i < m + 1; i++) {
-                    for (int j = road[3]; j < n + 1; j++) {
-                        if (i == road[2] && j == road[3]) {
-                            continue;
-                        }
-                        dp[i][j] = Math.min(dp[i - 1][j], dp[i][j - 1]) + 1;
-                    }
+            res = Math.min(res, currCost + cost(roads[currNode][2], roads[currNode][3], target[0], target[1]));
+            for (int nei = 0; nei < n; nei++) {
+                int neiCost = currCost + cost(roads[currNode][2], roads[currNode][3], roads[nei][0], roads[nei][1]) + roads[nei][4];
+                if (neiCost < costs[nei]) {
+                    costs[nei] = neiCost;
+                    pq.offer(new int[] {neiCost, nei});
                 }
             }
         }
-        return dp[m][n];
+        return res;
+    }
+
+    private static int cost(int x1, int y1, int x2, int y2) {
+        return Math.abs(x1 - x2) + Math.abs(y1 - y2);
     }
 }
