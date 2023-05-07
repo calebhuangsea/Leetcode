@@ -1,0 +1,20 @@
+package DIV4.R871;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class F {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int lines = sc.nextInt();
+        int mod = 1000000007;
+        for (int z = 0; z < lines; z++) {
+            int n = sc.nextInt();
+            int[] arr = new int[n];
+            for (int i = 0; i < n; i++) {
+                arr[i] = sc.nextInt();
+            }
+            Arrays.sort(arr);
+        }
+    }
+}
