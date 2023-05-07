@@ -296,3 +296,7 @@
 295. 2661 [First Completely Painted Row or Column (Medium)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Weekly343/Q2.java).
 296. 2662 [Minimum Cost of a Path With Special Roads (Medium)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Weekly343/Q3.java).
 297. 2663 [Lexicographically Smallest Beautiful String (Hard)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Weekly343/Q4.java).
+298. 2670 [Find the Distinct Difference Array (Easy)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Weekly344/Q1.java).
+299. 2671 [Frequency Tracker (Medium)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Weekly344/FrequencyTracker.java).
+300. 2672 [Number of Adjacent Elements With the Same Color (Medium)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Weekly344/Q3.java).
+301. 2673 [Make Costs of Paths Equal in a Binary Tree (Medium)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Weekly344/Q4.java).
