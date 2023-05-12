@@ -356,6 +356,13 @@
 [E. The Lakes](https://github.com/calebhuangsea/Leetcode/blob/main/CodeForce/src/DIV4/R871/E.java).
 [F. Forever Winter](https://github.com/calebhuangsea/Leetcode/blob/main/CodeForce/src/DIV4/R871/F.java).
 
+## EDUC
+
+### R149 DIV2
+[A. New Palindrome](https://github.com/calebhuangsea/Leetcode/blob/main/CodeForce/src/EDUC/R148/A.java)
+[B. Maximum Sum](https://github.com/calebhuangsea/Leetcode/blob/main/CodeForce/src/EDUC/R148/B.java)
+[C. Contrast Value](https://github.com/calebhuangsea/Leetcode/blob/main/CodeForce/src/EDUC/R148/C.java)
+
 ## Others
 ### 1900
 [883I. Photo Processing 1900](https://github.com/calebhuangsea/Leetcode/blob/main/CodeForce/src/Other/R1900/IPhotoProcessing.java).
