@@ -361,6 +361,9 @@
 359. 2707 [Extra Characters in a String (Medium)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Biweekly105/Q2.java).
 360. 2708 [Maximum Strength of a Group (Medium)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Biweekly105/Q3.java).
 361. 2709 [Greatest Common Divisor Traversal (Hard)](https://github.com/calebhuangsea/Leetcode/blob/main/LCContest/src/Biweekly105/Q4.java).
+362. 2710 [Remove Trailing Zeros From a String (Easy)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/E2710RemoveTrailingZerosFromaString).
+363. 2711 [Difference of Number of Distinct Values on Diagonals (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M2711DifferenceofNumberofDistinctValuesonDiagonals).
+364. 2712 [Minimum Cost to Make All Characters Equal (Medium)](https://github.com/calebhuangsea/Leetcode/tree/main/leetcode/src/M2712MinimumCosttoMakeAllCharactersEqual).
 
 
 ## Codeforces
