@@ -37,4 +37,8 @@ class UnionFind {
         }
         return true;
     }
+
+    public boolean isConnected(int x, int y) {
+        return find(x) == find(y);
+    }
 }
