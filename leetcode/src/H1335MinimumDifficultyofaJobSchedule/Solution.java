@@ -1,5 +1,7 @@
 package H1335MinimumDifficultyofaJobSchedule;
 
+import java.util.Arrays;
+
 class Solution {
     /**
      * Time: O(d * (n - d ^ 2))
