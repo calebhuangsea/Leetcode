@@ -1,14 +1,18 @@
-package Template;
+package Beginner.R326;
 
 import java.io.*;
-import java.util.*;
 import java.util.StringTokenizer;
 
-public class Template {
+public class A {
     public static void main(String[] args) {
         MyScanner sc = new MyScanner();
         out = new PrintWriter(new BufferedOutputStream(System.out));
-
+        int x = sc.nextInt(), y = sc.nextInt();
+        if (y - x <= 2 && y - x >= -3) {
+            out.println("Yes");
+        } else {
+            out.println("No");
+        }
         out.close();
     }
 

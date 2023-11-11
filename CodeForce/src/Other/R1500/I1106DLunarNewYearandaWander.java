@@ -1,17 +1,40 @@
-package Template;
+package Other.R1500;
+
 
 import java.io.*;
 import java.util.*;
-import java.util.StringTokenizer;
 
-public class Template {
+public class I1106DLunarNewYearandaWander {
     public static void main(String[] args) {
         MyScanner sc = new MyScanner();
         out = new PrintWriter(new BufferedOutputStream(System.out));
-
+        int n = sc.nextInt();
+        int m = sc.nextInt();
+        List<Integer>[] adj = new List[n + 1];
+        for (int i = 0; i < n + 1; i++) {
+            adj[i] = new ArrayList<>();
+        }
+        for (int i = 0; i < m; i++) {
+            int u = sc.nextInt(), v = sc.nextInt();
+            adj[u].add(v);
+            adj[v].add(u);
+        }
+        Set<Integer> visited = new HashSet<>();
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
+        pq.add(1);
+        visited.add(1);
+        while (!pq.isEmpty()) {
+            int curr = pq.poll();
+            out.print(curr + " ");
+            for (int nei : adj[curr]) {
+                if (!visited.contains(nei)) {
+                    pq.add(nei);
+                    visited.add(nei);
+                }
+            }
+        }
         out.close();
     }
-
 
 
     //-----------PrintWriter for faster output---------------------------------
@@ -62,4 +85,6 @@ public class Template {
     }
 
 }
+
+
 

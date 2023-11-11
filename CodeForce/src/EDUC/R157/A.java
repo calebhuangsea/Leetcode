@@ -1,14 +1,31 @@
-package Template;
+
+package EDUC.R157;
 
 import java.io.*;
-import java.util.*;
 import java.util.StringTokenizer;
 
-public class Template {
+public class A {
     public static void main(String[] args) {
         MyScanner sc = new MyScanner();
         out = new PrintWriter(new BufferedOutputStream(System.out));
+        int t = sc.nextInt();
+        while (t-- > 0) {
+            int x = sc.nextInt(), y = sc.nextInt(), k = sc.nextInt();
+            if (y <= x) {
+                out.println(x);
+            } else {
+                if (x + k >= y) {
+                    out.println(y);
+                } else {
+//                    int diff = y - x;
+//                    int sum = diff <= k ? 0 : 2 * (diff - k);
+//                    sum += x + k;
+                    out.println((x + k) + (2 * (y - x - k)));
+                }
+                // x > y
 
+            }
+        }
         out.close();
     }
 

@@ -1,14 +1,36 @@
-package Template;
+
+package Other.R1400;
 
 import java.io.*;
-import java.util.*;
 import java.util.StringTokenizer;
 
-public class Template {
+public class I816BKarenandCoffee {
     public static void main(String[] args) {
         MyScanner sc = new MyScanner();
         out = new PrintWriter(new BufferedOutputStream(System.out));
+        int n = sc.nextInt();
+        int k = sc.nextInt();
+        int q = sc.nextInt();
+        int[] arr = new int[200002];
+        for (int i = 0; i < n; i++) {
+            int l = sc.nextInt();
+            int r = sc.nextInt();
+            arr[l]++;
+            arr[r + 1]--;
+        }
+        for (int i = 1; i < 200002; i++) {
+            arr[i] += arr[i - 1];
+        }
+        for (int i = 1; i < 200002; i++) {
+            arr[i] = arr[i] >= k ? 1 : 0;
+            arr[i] += arr[i - 1];
+        }
+        for (int i = 0; i < q; i++) {
+            int l = sc.nextInt();
+            int r = sc.nextInt();
 
+            out.println(arr[r] - arr[l - 1]);
+        }
         out.close();
     }
 

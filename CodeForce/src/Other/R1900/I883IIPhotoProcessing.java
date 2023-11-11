@@ -1,11 +1,9 @@
 package Other.R1900;
 
 import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Scanner;
 
-public class IPhotoProcessing {
+public class I883IIPhotoProcessing {
     private static int N, K;
     private static final int MAX_N = 300000 + 16;
     private static int[] V = new int[MAX_N];

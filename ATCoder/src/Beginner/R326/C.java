@@ -1,14 +1,36 @@
-package Template;
+package Beginner.R326;
 
 import java.io.*;
-import java.util.*;
+import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class Template {
+public class C {
     public static void main(String[] args) {
         MyScanner sc = new MyScanner();
         out = new PrintWriter(new BufferedOutputStream(System.out));
-
+        int n = sc.nextInt(), m = sc.nextInt();
+        int[] a = new int[n];
+        for (int i = 0; i < n; i++) {
+            a[i] = sc.nextInt();
+        }
+        int max = -1;
+        Arrays.sort(a);
+        for (int i = 0; i < n; i++) {
+            if (i > 0 && a[i] == a[i - 1]) continue;
+            int target = a[i] + m;
+            // binary search to find insert position
+            int l = i, r = n - 1;
+            while (l <= r) {
+                int mid =l + (r - l) / 2;
+                if (a[mid] < target) {
+                    l = mid + 1;
+                } else {
+                    r = mid - 1;
+                }
+            }
+            max = Math.max(max, l - i);
+        }
+        out.println(max);
         out.close();
     }
 

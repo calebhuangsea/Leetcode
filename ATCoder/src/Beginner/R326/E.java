@@ -1,14 +1,30 @@
-package Template;
+package Beginner.R326;
 
 import java.io.*;
-import java.util.*;
+import java.util.Random;
 import java.util.StringTokenizer;
 
-public class Template {
+public class E {
     public static void main(String[] args) {
         MyScanner sc = new MyScanner();
         out = new PrintWriter(new BufferedOutputStream(System.out));
-
+        int n = sc.nextInt();
+        int[] a = new int[n];
+        int mod = 998244353;
+        for (int i = 0; i < n; i++) a[i] = sc.nextInt();
+        int x = 0;
+        Random rd = new Random();
+        long sum = 0;
+        while (true) {
+            int y = rd.nextInt(n);
+            if (x >= a[y]) {
+                break;
+            }
+            sum += a[y];
+            x = y;
+            sum %= mod;
+        }
+        out.println(sum);
         out.close();
     }
 

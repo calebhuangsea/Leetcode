@@ -1,17 +1,21 @@
-package Template;
+package Beginner.R326;
 
 import java.io.*;
-import java.util.*;
 import java.util.StringTokenizer;
 
-public class Template {
+public class B {
     public static void main(String[] args) {
         MyScanner sc = new MyScanner();
         out = new PrintWriter(new BufferedOutputStream(System.out));
-
+        int n = sc.nextInt();
+        for (n = n; n <= 919; n++) {
+            if ((n / 100) * ((n / 10) % 10) == (n % 10)) {
+                out.println(n);
+                break;
+            }
+        }
         out.close();
     }
-
 
 
     //-----------PrintWriter for faster output---------------------------------

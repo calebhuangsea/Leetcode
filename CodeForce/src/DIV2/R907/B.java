@@ -1,17 +1,46 @@
-package Template;
+package DIV2.R907;
 
 import java.io.*;
 import java.util.*;
-import java.util.StringTokenizer;
 
-public class Template {
+public class B {
+
+
+//            HashSet<Integer> set = new HashSet<>();
+//            for ( int i =0; i < x; i++){
+//                int k = in.nextInt();
+//                if (set.add(k)){
+//                    for ( int j = 0; j < n; j++){
+//                        if (a[j] % (int) Math.pow(2,k) == 0) a[j] += (int) Math.pow(2,k-1);
+//                    }
+//                }
+//            }
     public static void main(String[] args) {
         MyScanner sc = new MyScanner();
         out = new PrintWriter(new BufferedOutputStream(System.out));
-
+        int times = sc.nextInt();
+        while (times-- > 0) {
+            int n = sc.nextInt(), q = sc.nextInt();
+            long[] a = new long[n];
+            for (int i=0; i<n; i++) {
+                a[i] = sc.nextInt();
+            }
+            Set<Integer> set = new HashSet<>();
+            for (int i=0; i<q; i++) {
+                int k = sc.nextInt();
+                if (set.add(k)) {
+                    for (int j = 0; j < n; j++) {
+                        if (a[j] % (int) Math.pow(2, k) == 0) a[j] += (int) Math.pow(2, k - 1);
+                    }
+                }
+            }
+            for (int i = 0; i < n; i++) {
+                out.print(a[i] + " ");
+            }
+            out.println();
+        }
         out.close();
     }
-
 
 
     //-----------PrintWriter for faster output---------------------------------

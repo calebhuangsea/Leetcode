@@ -1,13 +1,13 @@
-package Template;
+package DIV2.R906;
 
 import java.io.*;
-import java.util.*;
 import java.util.StringTokenizer;
 
-public class Template {
+public class E1 {
     public static void main(String[] args) {
         MyScanner sc = new MyScanner();
         out = new PrintWriter(new BufferedOutputStream(System.out));
+        int n = sc.nextInt(), m = sc.nextInt(), k = sc.nextInt();
 
         out.close();
     }

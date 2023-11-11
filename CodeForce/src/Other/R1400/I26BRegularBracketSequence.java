@@ -1,14 +1,28 @@
-package Template;
+package Other.R1400;
 
 import java.io.*;
-import java.util.*;
+import java.util.Stack;
 import java.util.StringTokenizer;
 
-public class Template {
+public class I26BRegularBracketSequence {
     public static void main(String[] args) {
         MyScanner sc = new MyScanner();
         out = new PrintWriter(new BufferedOutputStream(System.out));
-
+        char[] cc = sc.next().toCharArray();
+        Stack<Character> s = new Stack<>();
+        int count = 0;
+        for (char c : cc) {
+            if (s.isEmpty()) {
+                if (c != ')') s.push(c);
+            } else {
+                if (c == '(') s.push(c);
+                else {
+                    s.pop();
+                    count += 2;
+                }
+            }
+        }
+        out.println(count);
         out.close();
     }
 

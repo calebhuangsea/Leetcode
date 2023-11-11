@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ATCoder/ATCoder.iml" filepath="$PROJECT_DIR$/ATCoder/ATCoder.iml" />
       <module fileurl="file://$PROJECT_DIR$/CodeForce/CodeForce.iml" filepath="$PROJECT_DIR$/CodeForce/CodeForce.iml" />
       <module fileurl="file://$PROJECT_DIR$/CodeSignal/CodeSignal.iml" filepath="$PROJECT_DIR$/CodeSignal/CodeSignal.iml" />
       <module fileurl="file://$PROJECT_DIR$/LCContest/LCContest.iml" filepath="$PROJECT_DIR$/LCContest/LCContest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Leetcode.iml" filepath="$PROJECT_DIR$/.idea/Leetcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Nowcoder/Nowcoder.iml" filepath="$PROJECT_DIR$/Nowcoder/Nowcoder.iml" />
       <module fileurl="file://$PROJECT_DIR$/OA/OA.iml" filepath="$PROJECT_DIR$/OA/OA.iml" />
     </modules>
   </component>

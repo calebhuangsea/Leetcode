@@ -1,14 +1,16 @@
-package Template;
+package Beginner.R327;
 
 import java.io.*;
-import java.util.*;
 import java.util.StringTokenizer;
 
-public class Template {
+public class A {
     public static void main(String[] args) {
         MyScanner sc = new MyScanner();
         out = new PrintWriter(new BufferedOutputStream(System.out));
-
+        int n = sc.nextInt();
+        String next = sc.next();
+        if (next.indexOf("ab") != -1 || (next.indexOf("ba") != -1)) out.println("Yes");
+        else out.println("No");
         out.close();
     }
 

@@ -1,7 +1,6 @@
 package Template;
 
 import java.io.*;
-import java.util.*;
 import java.util.StringTokenizer;
 
 public class Template {
