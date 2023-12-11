@@ -1,12 +1,24 @@
-package Template;
+package Beginner.R331;
 
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class Template {
+public class A {
     public static void main(String[] args) {
         MyScanner sc = new MyScanner();
         out = new PrintWriter(new BufferedOutputStream(System.out));
+        int M = sc.nextInt(), D = sc.nextInt();
+        int y = sc.nextInt(), m = sc.nextInt(), d = sc.nextInt();
+        d += 1;
+        if (d > D) {
+            d = 1;
+            m++;
+        }
+        if (m > M) {
+            y++;
+            m = 1;
+        }
+        System.out.println(y + " " + m + " "+ d);
 
         out.close();
     }
@@ -59,5 +71,6 @@ public class Template {
         }
 
     }
+
 }
 

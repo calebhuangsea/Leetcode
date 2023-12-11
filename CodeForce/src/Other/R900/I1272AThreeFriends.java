@@ -1,13 +1,25 @@
-package Template;
+package Other.R900;
 
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class Template {
+public class I1272AThreeFriends {
     public static void main(String[] args) {
         MyScanner sc = new MyScanner();
         out = new PrintWriter(new BufferedOutputStream(System.out));
-
+        int times = sc.nextInt();
+        while (times-- > 0) {
+            int a = sc.nextInt(), b = sc.nextInt(), c = sc.nextInt();
+            long res = Long.MAX_VALUE;
+            for (int i = a - 1; i <= a + 1; i++) {
+                for (int j = b - 1; j <= b + 1; j++) {
+                    for (int z = c - 1; z <= c + 1; z++) {
+                        res = Math.min(res, Math.abs(i - j) + Math.abs(i - z) + Math.abs(j - z));
+                    }
+                }
+            }
+            out.println(res);
+        }
         out.close();
     }
 
@@ -59,5 +71,6 @@ public class Template {
         }
 
     }
+
 }
 

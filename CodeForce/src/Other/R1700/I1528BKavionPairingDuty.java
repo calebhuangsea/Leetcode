@@ -1,17 +1,30 @@
-package Template;
+package Other.R1700;
 
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class Template {
+public class I1528BKavionPairingDuty {
     public static void main(String[] args) {
         MyScanner sc = new MyScanner();
         out = new PrintWriter(new BufferedOutputStream(System.out));
-
+        int n = sc.nextInt();
+        long mod = 998244353;
+        long[] dp = new long[n + 1];
+        for (int i = 1; i <= n; i++) {
+            for (int j = i; j <= n; j+=i) {
+                dp[j]++;
+            }
+        }
+        dp[1] = 1;
+        long sum = 1;
+        for (int i = 2; i <= n; i++) {
+            dp[i] = (dp[i] + sum) % mod;
+            sum += dp[i];
+            sum %= mod;
+        }
+        out.println((dp[n]) % mod);
         out.close();
     }
-
-
 
     //-----------PrintWriter for faster output---------------------------------
     public static PrintWriter out;

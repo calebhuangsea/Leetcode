@@ -1,13 +1,18 @@
-package Template;
+package Other.R800;
 
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class Template {
+public class I4AWatermelon {
     public static void main(String[] args) {
         MyScanner sc = new MyScanner();
         out = new PrintWriter(new BufferedOutputStream(System.out));
-
+        int n = sc.nextInt();
+        if (n <= 2 || n % 2 == 1) {
+            out.println("NO");
+        } else {
+            out.println("YES");
+        }
         out.close();
     }
 

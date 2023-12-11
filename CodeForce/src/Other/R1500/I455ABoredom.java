@@ -1,13 +1,29 @@
-package Template;
+package Other.R1500;
 
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class Template {
+public class I455ABoredom {
     public static void main(String[] args) {
         MyScanner sc = new MyScanner();
         out = new PrintWriter(new BufferedOutputStream(System.out));
-
+        int n = sc.nextInt();
+        long[] count = new long[100001];
+        int[] arr = new int[n];
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
+            count[arr[i]]++;
+        }
+        // dp[i][0]: we don't take this one
+        // dp[i][1]: we take this one
+        long[][] dp = new long[100001][2];
+        long max = 0;
+        for (int i = 1; i <= 100000; i++) {
+            dp[i][0] = Math.max(dp[i-1][0], dp[i-1][1]);
+            dp[i][1] = dp[i-1][0] + count[i] * i;
+            max = Math.max(max, Math.max(dp[i][0], dp[i][1]));
+        }
+        out.println(max);
         out.close();
     }
 
@@ -59,5 +75,6 @@ public class Template {
         }
 
     }
+
 }
 

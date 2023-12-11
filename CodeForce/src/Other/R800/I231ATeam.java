@@ -1,13 +1,22 @@
-package Template;
+package Other.R800;
 
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class Template {
+public class I231ATeam {
     public static void main(String[] args) {
         MyScanner sc = new MyScanner();
         out = new PrintWriter(new BufferedOutputStream(System.out));
-
+        int n = sc.nextInt();
+        int count = 0;
+        for (int i = 0; i < n; i++) {
+            int temp = 0;
+            for (int j = 0; j < 3; j++) {
+                temp += sc.nextInt();
+            }
+            count += temp >= 2 ? 1 : 0;
+        }
+        out.println(count);
         out.close();
     }
 

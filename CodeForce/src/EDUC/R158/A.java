@@ -1,13 +1,25 @@
-package Template;
+package EDUC.R158;
 
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class Template {
+public class A {
     public static void main(String[] args) {
         MyScanner sc = new MyScanner();
         out = new PrintWriter(new BufferedOutputStream(System.out));
-
+        int times = sc.nextInt();
+        while (times-- > 0) {
+            int n = sc.nextInt(), x = sc.nextInt();
+            int diff = 0;
+            int last = 0;
+            for (int i = 0; i < n; i++) {
+                int xi = sc.nextInt();
+                diff = Math.max(diff, xi - last);
+                last = xi;
+            }
+            diff = Math.max((x - last)* 2, diff);
+            System.out.println(diff);
+        }
         out.close();
     }
 
@@ -59,5 +71,6 @@ public class Template {
         }
 
     }
+
 }
 
